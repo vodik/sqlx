@@ -33,6 +33,7 @@ postgres = [
     "json",
     "dirs",
     "whoami",
+    "hkdf"
 ]
 mysql = [
     "sha-1",
@@ -164,3 +165,4 @@ bstr = { version = "0.2.17", default-features = false, features = ["std"], optio
 git2 = { version = "0.13.25", default-features = false, optional = true }
 hashlink = "0.7.0"
 indexmap = "1.7.0"
+hkdf = { version = "0.11.0", optional = true }
